@@ -11,3 +11,15 @@
 利用生成的模板填充template中的arg参数。
 
 ![](https://github.com/cs-liangchen-work/EE_gen-arg/blob/main/picture/pic_1.png)
+
+
+### 论文给出的代码的解释说明：
+- model.py  模型  在这里选择是否进行那个有限制的。
+  if self.hparams.model=='gen':
+              self.model = BartGen(self.config, self.tokenizer)
+              self.model.resize_token_embeddings() 
+          elif self.hparams.model == 'constrained-gen':
+              self.model = BartConstrainedGen(self.config, self.tokenizer)
+              self.model.resize_token_embeddings() 
+- network.py  没有限制的网络。
+- constrained_gen.py  有限制的网络。
