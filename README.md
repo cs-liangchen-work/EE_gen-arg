@@ -7,3 +7,5 @@
 模型输出：填充好的模板。
 
 利用生成的模板填充template中的arg参数。
+
+![](https://github.com/cs-liangchen-work/EE_gen-arg/blob/main/picture/pic_1.png)
