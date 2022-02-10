@@ -27,7 +27,7 @@ elif self.hparams.model == 'constrained-gen':
 - constrained_gen.py  有限制的网络。
 - convert_gen_to_output.py  生成的内容进行转化，是生成的string，而不是具体的向量。
 
-公开的数据文件：
+公开的数据文件：  事件类型对应的模板如何填充。
 - aida_ontology_cleaned.csv    工作表格式给出：artifactexistence.artifactfailure.mechanicalfailure	<arg1> mechanical artifact failed due to <arg2> instrument at <arg3> place
 - event_role_ACE.json  json格式给出模板。
 - event_role_KAIROS.json    json格式给出模板。
