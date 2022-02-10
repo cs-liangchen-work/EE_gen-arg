@@ -25,3 +25,4 @@ elif self.hparams.model == 'constrained-gen':
 ```
 - network.py  没有限制的网络。
 - constrained_gen.py  有限制的网络。
+- convert_gen_to_output.py  生成的内容进行转化，是生成的string，而不是具体的内容。
